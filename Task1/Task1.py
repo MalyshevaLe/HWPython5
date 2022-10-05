@@ -1,8 +1,6 @@
 # Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
 
-def del_words(text):
-    text = list(filter(lambda x: 'абв' not in x, text.split()))
-    return " ".join(text)
+print(words.txt)
 
 with open("text.txt", "r") as fin:
     for line in fin:
